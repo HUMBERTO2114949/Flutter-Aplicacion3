@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_3/screen/listas.dart';
+//import 'package:flutter_application_3/screen/listas.dart';
 import 'package:flutter_application_3/screen/pantalla1.dart';
 
 
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Material App',
-      home: Listas()
+      home: FirstRoute()
     );
   }
 }
